@@ -18,8 +18,7 @@ setuptools.setup(
     include_package_data=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Programming Language :: Python :: 3.6',
-        'License :: OSI Approved :: MIT LICENSE',
+        'Programming Language :: Python :: 3.6'
     ],
     install_requires=['colorama==0.4.1', 'docopt==0.6.2', 'rply==0.7.6'],
     extras_require={
@@ -27,11 +26,11 @@ setuptools.setup(
     },
     entry_points={
         'console_scripts': [
-            'propose=propose:main',
+            'propose=propose:main'
         ],
     },
     project_urls={
         'Bug Reports': 'https://github.com/jonhue/propose/issues',
-        'Source': 'https://github.com/jonhue/propose',
-    },
+        'Source': 'https://github.com/jonhue/propose'
+    }
 )
