@@ -19,7 +19,7 @@ setuptools.setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3.6',
-        'License :: OSI Approved :: GNU LESSER GENERAL PUBLIC LICENSE',
+        'License :: OSI Approved :: MIT LICENSE',
     ],
     install_requires=['colorama==0.4.1', 'docopt==0.6.2', 'rply==0.7.6'],
     extras_require={
