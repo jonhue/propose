@@ -39,15 +39,11 @@ To get a list of all available commands and options:
 
 Clone this repository
 
-    ```
     $ git clone git@github.com:jonhue/propose.git
-    ```
 
 Install Propose with Pip. You may want to use a virtualenv
 
-    ```
     $ make setup
-    ```
 
 Rebuild & reinstall Propose:
 
