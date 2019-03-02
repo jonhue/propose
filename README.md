@@ -37,13 +37,13 @@ To get a list of all available commands and options:
 
 ## Development
 
-1. Clone this repository
+Clone this repository
 
     ```
     $ git clone git@github.com:jonhue/propose.git
     ```
 
-2. Install Propose with Pip. You may want to use a virtualenv
+Install Propose with Pip. You may want to use a virtualenv
 
     ```
     $ make setup
