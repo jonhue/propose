@@ -1,12 +1,10 @@
-formula = { expression } ;
-
-expression = expression , '<->' , expressions
-           | expression , '->' , expressions
-           | expression , '+' , expressions
-           | expression , '*' , expressions
-           | '!' , expressions
-           | '(' , expressions , ')'
-           | literal
-           ;
+formula = formula , '<->' , formula
+        | formula , '->' , formula
+        | formula , '+' , formula
+        | formula , '*' , formula
+        | '!' , formula
+        | '(' , formula , ')'
+        | literal
+        ;
 
 literal = ?[A-Za-z]+? ;
